@@ -13,6 +13,6 @@ class BlogSeeder extends Seeder
             'title' => 'First Blog',
             'sub-header' => 'Sub Header One',
             'content' => 'Blog Content One'
-        ]);
+        ]); 
     }
 }
