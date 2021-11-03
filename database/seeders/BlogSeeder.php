@@ -11,7 +11,7 @@ class BlogSeeder extends Seeder
     {
         DB::table('blogs')->insert([
             'title' => 'First Blog',
-            'sub_header' => 'Sub Header One',
+            'sub-header' => 'Sub Header One',
             'content' => 'Blog Content One'
         ]);
     }
